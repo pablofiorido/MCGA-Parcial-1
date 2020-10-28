@@ -24,8 +24,8 @@ class Form extends React.Component {
                 <li>
                     <h2>{user.name.first} {user.name.last}</h2>
                     <a href={'mailto:' + user.email}>{user.email}</a>
-                    <p>Gender: {user.gender}</p>
-                    <p>Age: {user.age}</p>
+                    <p>Genero: {user.gender}</p>
+                    <p>Edad: {user.age}</p>
                     <img src={user.picture.medium} alt="user" />
                 </li>
                 <button><Link to="/FormAddStudents">Modificar</Link></button>
@@ -41,7 +41,7 @@ class Form extends React.Component {
 
         return (
             <div className="Form">
-                <h1>Students List</h1>
+                <h1>Lista de Estudiantes</h1>
                 <button><Link to="/FormAddStudents">Agregar</Link></button>
                 <Route exact path="/FormAddStudents"><FormAddStudents /></Route>
                 <ul>

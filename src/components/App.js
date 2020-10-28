@@ -66,8 +66,8 @@ class App extends React.Component {
         <div className="App">
           <Redirect to="/home" />
 
-          <button><Link to="/form">Students List</Link></button>
-          <button><Link to="/counters">Counters</Link></button>
+          <button><Link to="/form">Estudiantes</Link></button>
+          <button><Link to="/counters">Contadores</Link></button>
 
           <Route exact path="/counters">
             <Counters

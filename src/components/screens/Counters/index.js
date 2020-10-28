@@ -3,7 +3,6 @@ import React from 'react';
 import CounterCards from '../CounterCards';
 import { Link } from 'react-router-dom';
 
-
 class Counters extends React.Component {
     constructor(props) {
         super(props)
